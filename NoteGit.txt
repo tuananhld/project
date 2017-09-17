@@ -1,0 +1,17 @@
+﻿1. Lệnh này cũng được dùng để kiểm tra phiên bản của Git đang sử dụng.
+	git --version
+2. Trước khi sử dụng Git, ta phải cấu hình nó bằng cách cung cấp thông tin cơ bản.
+	git config --global user.name "username"
+	git config --global user.email "email"
+3. Ta có thể tạo thư mục mới trong cửa sổ dòng lệnh bằng:
+	mkdir folder
+4. Sau khi tạo thư mục mới, ta di chuyển vào trong thư mục đó.
+	cd folder
+5. Tiếp theo, để khai báo cho Git biết rằng đây chính là thư mục mà ta muốn Git quản lý những thay đổi:
+	git init
+6. Lệnh này sẽ liệt kê những tập tin mà ta chưa đưa vào trạng thái đang được theo dõi.
+	git status
+7. Để thêm một tập tin nào đó vào danh sách theo dõi, ta dùng lệnh sau:
+	git add file.txt
+Nếu trong thư mục ta có nhiều tập tin và ta muốn thêm tất cả các tập tin này vào danh sách theo dõi của Git, ta dùng lệnh sau:
+	git add *
