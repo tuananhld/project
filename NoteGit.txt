@@ -12,6 +12,12 @@
 6. Lệnh này sẽ liệt kê những tập tin mà ta chưa đưa vào trạng thái đang được theo dõi.
 	git status
 7. Để thêm một tập tin nào đó vào danh sách theo dõi, ta dùng lệnh sau:
-	git add file.txt
+	git add tên_file
 Nếu trong thư mục ta có nhiều tập tin và ta muốn thêm tất cả các tập tin này vào danh sách theo dõi của Git, ta dùng lệnh sau:
 	git add *
+8. Để commit những thay đổi trong tập tin và ghi chú trên cùng một dòng lệnh.
+	git commit -m 'Add your comment here'
+9. Lệnh mà yêu cầu sử dụng để kết nối đến kho
+	git remote add origin https://github.com/user/repo.git
+10. Đẩy tài nguyên lên kho từ xa
+	git push origin master
